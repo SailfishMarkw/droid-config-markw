@@ -1,1 +1,2 @@
 KERNEL=="event*", SUBSYSTEM=="input", ATTRS{name}=="ft5346", ACTION=="add", TEST!="/dev/touchscreen", SYMLINK+="touchscreen"
+KERNEL=="event*", SUBSYSTEM=="input", ATTRS{name}=="atmel-maxtouch", ACTION=="add", TEST!="/dev/touchscreen", SYMLINK+="touchscreen"
